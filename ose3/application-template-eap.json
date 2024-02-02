@@ -181,8 +181,8 @@
               ],
               "from": {
                 "kind": "ImageStreamTag",
-                "namespace": "openshift",
-                "name": "mongodb:3.6"
+                "namespace": "nobuo-enami-rf-dev",
+                "name": "mongodb-36-rhel7:1-73.1619800751"
               }
             }
           },
@@ -381,8 +381,8 @@
           "sourceStrategy": {
             "from": {
               "kind": "ImageStreamTag",
-              "namespace": "nobuo-enami-rf-dev",
-              "name": "eap73-openjdk11-openshift-rhel8:7.3.10-2"
+              "namespace": "openshift",
+              "name": "jboss-eap74-openjdk11-openshift:latest"
             },
             "env": [
               {
