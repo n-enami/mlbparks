@@ -39,7 +39,7 @@
       "description": "Git source URI for application",
       "displayName": "Git source repository",
       "name": "GIT_URI",
-      "value": "https://github.com/openshift-roadshow/mlbparks.git",
+      "value": "https://github.com/n-enami/mlbparks.git",
       "required": true
     },
     {
@@ -382,7 +382,7 @@
             "from": {
               "kind": "ImageStreamTag",
               "namespace": "openshift",
-              "name": "jboss-eap73-openshift:latest"
+              "name": "jboss-eap74-openjdk11-openshift:latest"
             },
             "env": [
               {
@@ -413,7 +413,7 @@
       "metadata": {
         "name": "${APPLICATION_NAME}",
         "annotations" : {
-          "app.openshift.io/vcs-uri": "https://github.com/openshift-roadshow/mlbparks.git",
+          "app.openshift.io/vcs-uri": "https://github.com/n-enami/mlbparks.git",
           "app.openshift.io/vcs-ref": "master"
         },
         "labels": {
