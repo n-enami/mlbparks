@@ -381,8 +381,8 @@
           "sourceStrategy": {
             "from": {
               "kind": "ImageStreamTag",
-              "namespace": "openshift",
-              "name": "jboss-eap74-openjdk11-openshift:latest"
+              "namespace": "nobuo-enami-rf-dev",
+              "name": "eap73-openjdk11-openshift-rhel8:7.3.10-2"
             },
             "env": [
               {
